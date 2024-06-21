@@ -2,10 +2,10 @@
 
 Theme toggle web component
 
-- Current active theme reflected via `[data-theme]` attribute in `html` element.
+- Current active theme reflected via `[data-theme]` attribute in `html` element (for styling).
 - Reacts to user-agent's `prefers-color-scheme` changes.
-- Let user toggle the active theme by clicking the `<theme-toggle>` element.
-- Syncs with localStorage
+- Reacts to user clicking the `<theme-toggle>` element.
+- Syncs with localStorage.
 
 ## Usage
 
