@@ -1,10 +1,11 @@
-# `<theme-switch>`
+# `<theme-toggle>`
 
-Theme switcher web component
+Theme toggle web component
 
 - Current active theme reflected via `[data-theme]` attribute in `html` element.
 - Reacts to user-agent's `prefers-color-scheme` changes.
-- Let user toggle the active theme by clicking the `<theme-switch>` element.
+- Let user toggle the active theme by clicking the `<theme-toggle>` element.
+- Syncs with localStorage
 
 ## Usage
 
@@ -32,8 +33,8 @@ Theme switcher web component
 
   ...
 
-  <theme-switch>
+  <theme-toggle>
     <img src="cool-theme-icon.png" witdth="20" height="20" />
-  </theme-switch>
+  </theme-toggle>
 </html>
 ```
